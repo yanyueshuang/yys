@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description></description>
+  	<servlet-class>com.itheruan.web.servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Add</servlet-name>
+  	<display-name>Add</display-name>
+  	<description></description>
+  	<servlet-class>com.itheruan.web.servlet.visitory.Add</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ListVisitor</servlet-name>
+  	<display-name>ListVisitor</display-name>
+  	<description></description>
+  	<servlet-class>com.itheruan.web.servlet.visitor.ListVisitor</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Proposer</servlet-name>
+  	<display-name>Proposer</display-name>
+  	<description></description>
+  	<servlet-class>com.itheruan.web.servlet.interviewee.Proposer</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>VisitorLogin</servlet-name>
+  	<display-name>VisitorLogin</display-name>
+  	<description></description>
+  	<servlet-class>com.itheruan.web.servlet.visitor.VisitorLogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>StateVisitory</servlet-name>
+  	<display-name>StateVisitory</display-name>
+  	<description></description>
+  	<servlet-class>com.itheruan.web.servlet.visitor.StateVisitory</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LikeVisitorNanme</servlet-name>
+  	<display-name>LikeVisitorNanme</display-name>
+  	<description></description>
+  	<servlet-class>com.itheruan.web.servlet.visitor.LikeVisitorNanme</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ImportZhong</servlet-name>
+  	<display-name>ImportZhong</display-name>
+  	<description></description>
+  	<servlet-class>com.itheruan.web.servlet.visitor.ImportZhong</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Add</servlet-name>
+  	<url-pattern>/Add</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ListVisitor</servlet-name>
+  	<url-pattern>/ListVisitor</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Proposer</servlet-name>
+  	<url-pattern>/Proposer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>VisitorLogin</servlet-name>
+  	<url-pattern>/VisitorLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>StateVisitory</servlet-name>
+  	<url-pattern>/StateVisitory</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LikeVisitorNanme</servlet-name>
+  	<url-pattern>/LikeVisitorNanme</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ImportZhong</servlet-name>
+  	<url-pattern>/ImportZhong</url-pattern>
+  </servlet-mapping>
+</web-app>
